@@ -13,12 +13,12 @@
    ```
    
 ## Install Java 8
-```
+
 yum install java-1.8.0
 yum remove java-1.7.0-openjdk
 
-1. give executing permissions to startup.sh and shutdown.sh which are under bin. 
-   ```sh
+```
+1. give executing permissions to startup.sh and shutdown.sh which are under bin.sh
    chmod +x /opt/apache-tomcat-8.5.35/bin/startup.sh 
    shutdown.sh
    ```
