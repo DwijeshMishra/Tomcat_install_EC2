@@ -1,4 +1,4 @@
-T# Tomcat installation on EC2 instance
+# Tomcat installation on EC2 instance
 
 ### Pre-requisites
 1. EC2 instance with Java v1.8.x 
@@ -11,6 +11,12 @@ T# Tomcat installation on EC2 instance
    wget http://mirrors.fibergrid.in/apache/tomcat/tomcat-8/v8.5.35/bin/apache-tomcat-8.5.35.tar.gz
    tar -xvzf /opt/apache-tomcat-8.5.35.tar.gz
    ```
+   
+## Install Java 8
+```
+yum install java-1.8.0
+yum remove java-1.7.0-openjdk
+
 1. give executing permissions to startup.sh and shutdown.sh which are under bin. 
    ```sh
    chmod +x /opt/apache-tomcat-8.5.35/bin/startup.sh 
