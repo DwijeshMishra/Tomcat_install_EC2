@@ -1,3 +1,5 @@
+![Screenshot from 2021-02-07 20-17-37](https://user-images.githubusercontent.com/60146522/107149998-a1babe80-6981-11eb-909e-3907a0f891f3.png)
+
 # Tomcat installation on EC2 instance
 
 ### Pre-requisites
